@@ -14,7 +14,7 @@
      color: var(--dark-blue-300);
  }
  *::-webkit-scrollbar{
-     width: 5px;
+     width: .5rem;
  }
  *::-webkit-scrollbar-thumb{
      background: var(--dark-blue-300);
@@ -33,12 +33,12 @@
  height: 100%;
  display: grid;
  grid-template-columns:5fr 3fr;
- padding:20px 0;
+ padding:2rem 0;
  
  }
  .main__container .left__content{
      display: grid;
-     grid-template-rows: 60px 1fr;
+     grid-template-rows: 6rem 1fr;
  grid-template-columns: 1fr 5fr;
  
  }
@@ -47,7 +47,7 @@
      display: flex;
      justify-content: center;
      align-items: center;
-     width: 25px;
+     width: 2.5rem;
      margin: 0 auto;
  }
  a .alura__icon{
@@ -58,32 +58,32 @@
      grid-column: 2 / 3;
      grid-row: 2 / 3;
      display: flex;
-     grid-template-rows:1fr 80px;
+     grid-template-rows:1fr 8rem;
      flex-direction: column;
      justify-content: space-between;
-     padding-bottom: 20px;
+     padding-bottom: 2rem;
  }
  .left__container .text__container{
      background: rgba(0, 0, 255, 0.481);
-     border-radius: 20px;
+     border-radius: 2rem;
      width: 100%;
      height: 100%;
      display: flex;
      justify-content: center;
      align-items: center;
      font-size: 1.4rem;
-     padding: 30px;
+     padding: 3rem;
      cursor: pointer;
     }
     .text__container .text{
-     height: 680px;
+     height: 68rem;
      border: none;
      background: transparen;
      width: 100%;
-     max-width: 1000px;
+     max-width: 100rem;
      overflow-y: scroll;
      overflow-wrap: anywhere;
-     padding:0  10px;
+     padding:0  1rem;
      font-size: 2.4rem;
      font-weight: bolder;
      outline:none;
@@ -92,7 +92,7 @@
  }
  .left__container .text__enter{
      font-size: 1.8rem;
-     padding: 5px;
+     padding: .5rem;
  }
  .left__container .buttons{
      grid-row: 2 / 3;
@@ -100,23 +100,23 @@
  .left__container .buttons .buttons__select{
      display: flex;
      align-items: center;
-     gap: 5px;
-     padding: 6px;
+     gap: .5rem;
+     padding: .6rem;
      font-size: 1.2rem;
      
  }
  .buttons__select .warm__icon{
-     width: 10px;
+     width: 1rem;
  }
  .buttons .buttons__container{
      display: flex;
-     gap: 10px;
+     gap: 1rem;
  
  }
  .btn{
-     width: 200px;
-     padding: 12px 0;
-     border-radius: 12px;
+     width: 20rem;
+     padding: 1.2rem 0;
+     border-radius: 1.2rem;
      border: none;
      font-weight: bolder;
      font-size: 1.5rem;
@@ -131,7 +131,7 @@
  }
  .buttons__container .btn2{
      background: transparent;
-     border: solid 1px var(--dark-blue-300);
+     border: solid .1rem var(--dark-blue-300);
  }
  .btn2:hover{
      background: rgba(20, 86, 113, 1);
@@ -139,9 +139,9 @@
  }
  .btn3{
      background: transparent;
-     border: solid 1px var(--dark-blue-300);
+     border: solid .1rem var(--dark-blue-300);
      position: absolute;
-     bottom: 18px;
+     bottom: 1.8rem;
      display: non;
  }
  .btn3:hover{
@@ -151,24 +151,24 @@
  
  .main__container .right__content{
     
-     margin:0 30px ;
+     margin:0 3rem ;
      border-radius: 20q;
-     padding: 10px;
+     padding: 1rem;
      display: flex;
      flex-direction: column;
-     gap: 10px;
+     gap: 1rem;
      justify-content: center;
      align-items: center;
      overflow: hidden;
      font-size: 1.4rem;
-     border: solid 1px var(--dark-blue-300);
+     border: solid .1rem var(--dark-blue-300);
      position: relative;
      background: var(--white);
      box-shadow:0 10q 10q 3q rgba(0, 0, 0, 0.177);
  }
  .right__content .encript__icon{
      width: 80%;
-     max-width: 200px;
+     max-width: 20rem;
  }
  .right__text{
      width: 80%;
@@ -183,16 +183,16 @@
      right: 0;
      width: 80%;
      overflow-y: scroll;
-     height: 800px;
+     height: 80rem;
      outline:none;
      border:none;
-     max-height: 800px ;
+     max-height: 80rem;
      text-align: center;
      margin: 0 auto;
-     padding:0  10px;
+     padding:0  1rem;
      font-weight: 500;
      position: absolute;
-     top: 30px;
+     top: 3rem;
      font-size: 2rem;
      font-weight: bolder;
      resize: none;
@@ -202,8 +202,8 @@
  @media (min-width: 1000px) {
      .main__container .left__content{
          display: grid;
-         grid-template-rows: 60px 1fr;
-     grid-template-columns: 120px 1fr;
+         grid-template-rows: 6rem 1fr;
+     grid-template-columns: 12rem 1fr;
  }
  }
  @media (max-width: 900px) {
@@ -211,7 +211,7 @@
      .main__container{
          display: grid;
          place-items: center;
-         padding:10px 0;
+         padding:1rem 0;
          }
          .main__container .left__content{
              grid-column: 1 / 4;
@@ -230,20 +230,20 @@
              display: flex;
              justify-content: center;
              align-items: center;
-             width: 25px;
+             width: 2.5rem;
              grid-column: 2 / 3;
              position: absolute;
-             top: 18px;
-             left: 30px;
+             top: 1.8rem;
+             left: 3rem;
              
          }
          .left__container .text__container{
            font-size: 1rem;
          }
          .text__container .text{
-             height: 200px;
+             height: 20rem;
              width: 100%;
-             min-width: 350px;
+             min-width: 35rem;
              
              
          }
@@ -251,21 +251,21 @@
              grid-column: 1 / 4;
              grid-row: 2 / 3;
              width: 90%;
-             min-width: 350px;
-             height: 300px;
+             min-width: 35rem;
+             height: 30rem;
              font-size: 1.2rem;
-             margin-top: 30px;
+             margin-top: 3rem;
          }
          .right__content .encript__icon{
              width: 50%;
-             max-width: 120px;
+             max-width: 12rem;
          }
          .right__text{
              font-size: 1.2rem;
          }
          .right__content p{
              width: 80%;
-             max-height: 400px ;
+             max-height: 40rem;
              height: 100%;
          }
  }
@@ -273,7 +273,7 @@
     .buttons .buttons__container{
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 1rem;
     
     }
  }
